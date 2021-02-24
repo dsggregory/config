@@ -54,7 +54,7 @@ type MyConfig struct {
 	Debug     bool   `env:"Debug"`
 }
 
-type SubConfig struct {
+type Address struct {
 	Street string `usage:"the street address"`
 	Zip string `usage:"the postcode"`
 }
